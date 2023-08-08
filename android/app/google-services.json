@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697503742825",
+    "firebase_url": "https://connnectycubesamples-default-rtdb.firebaseio.com",
+    "project_id": "connnectycubesamples",
+    "storage_bucket": "connnectycubesamples.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697503742825:android:7814077f092ba4245fdbf8",
+        "android_client_info": {
+          "package_name": "com.connectycube.flutter.chat_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697503742825-kqcgs3s44c1psgl0bpbbjsvc7ip8ddbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWMwKKR6r-9eS_N2EUl_x4gg1EkW6ly34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697503742825-kqcgs3s44c1psgl0bpbbjsvc7ip8ddbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
