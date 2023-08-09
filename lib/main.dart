@@ -31,14 +31,25 @@ Future<void> main() async {
   if (kIsWeb || !(Platform.isLinux && Platform.isWindows)) {
     log('[main] init Firebase');
     await Firebase.initializeApp(
-      options: FirebaseOptions(
-        apiKey: 'AIzaSyCWMwKKR6r-9eS_N2EUl_x4gg1EkW6ly34',
-        appId: '1:697503742825:android:7814077f092ba4245fdbf8',
-        messagingSenderId: '697503742825',
-        projectId: 'connnectycubesamples',
-        databaseURL: 'https://connnectycubesamples-default-rtdb.firebaseio.com',
-        storageBucket: 'connnectycubesamples.appspot.com',
-      ),
+      name: "DemoChatSdk",
+      // options: FirebaseOptions(
+      //   apiKey: 'AIzaSyCWMwKKR6r-9eS_N2EUl_x4gg1EkW6ly34',
+      //   appId: '1:697503742825:android:7814077f092ba4245fdbf8',
+      //   messagingSenderId: '697503742825',
+      //   projectId: 'connnectycubesamples',
+      //   databaseURL: 'https://connnectycubesamples-default-rtdb.firebaseio.com',
+      //   storageBucket: 'connnectycubesamples.appspot.com',
+      // ),
+        options:     FirebaseOptions(
+    apiKey: 'AIzaSyCWMwKKR6r-9eS_N2EUl_x4gg1EkW6ly34',
+      appId: '1:697503742825:ios:4c8a64727742fb1e5fdbf8',
+      messagingSenderId: '697503742825	',
+      projectId: 'connnectycubesamples',
+      databaseURL: 'https://connnectycubesamples-default-rtdb.firebaseio.com',
+      storageBucket: 'connnectycubesamples.appspot.com',
+      iosClientId: '697503742825-i3m9hbm7ubjbiua8lpa6tg86k13akr2f.apps.googleusercontent.com',
+      iosBundleId: 'com.bv.mainCourt',
+    )
     );
 
     FirebaseMessaging.onBackgroundMessage(onBackgroundMessage);
