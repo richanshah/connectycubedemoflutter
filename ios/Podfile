@@ -30,6 +30,10 @@ flutter_ios_podfile_setup
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
+  
+#  flutter_application_path = '/Users/jitendraparmar/Downloads/connectycube-flutter-samples-master/chat_sample'
+#    load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+#    install_all_flutter_pods(flutter_application_path)
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end

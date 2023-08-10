@@ -32,6 +32,15 @@ Future<void> main() async {
     log('[main] init Firebase');
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
+      name: "DemoChatSdk",
+      // options: FirebaseOptions(
+      //   apiKey: 'AIzaSyCWMwKKR6r-9eS_N2EUl_x4gg1EkW6ly34',
+      //   appId: '1:697503742825:android:7814077f092ba4245fdbf8',
+      //   messagingSenderId: '697503742825',
+      //   projectId: 'connnectycubesamples',
+      //   databaseURL: 'https://connnectycubesamples-default-rtdb.firebaseio.com',
+      //   storageBucket: 'connnectycubesamples.appspot.com',
+      // ),
     );
 
     FirebaseMessaging.onBackgroundMessage(onBackgroundMessage);
